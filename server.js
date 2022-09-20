@@ -20,5 +20,5 @@ app.use('/', htmlRoute);
 
 // Setting port
 app.listen(PORT, () => {
-    console.log(`App listening on port ${PORT}`);
+    console.log(`App listening at http://localhost:${PORT} 🚀`);
 });
