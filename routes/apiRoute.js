@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const data = require('../develop/db/db.json');
+const data = require('../db/db.json');
 const { addNote } = require('../lib/data');
 
 router.get('/notes', (req, res) => {
@@ -11,8 +11,9 @@ router.get('/', (req, res) => {
 });
 
 router.post('/notes', (req, res) => {
-    addNote(req.body);
-    res.json();
+    var newNote = addNote(req.body);
+    console.log(newNote);
+    res.json(newNote);
 });
 
 module.exports = router;
