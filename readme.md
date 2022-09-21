@@ -21,7 +21,7 @@ This is a Heroku based This application was made using an express.js backend and
 
   ## Screenshot of the Application
 
-  ![Screenshot of Note Taker]()
+  ![Screenshot of Note Taker](./public/assets/media/Capture.PNG)
   
   ## License
   
